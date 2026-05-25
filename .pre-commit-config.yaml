@@ -19,5 +19,5 @@ repos:
             name: pytest
             description: run tests
             language: system
-            entry: poetry run pytest
+            entry: poetry run pytest --config-file=pytest.ini
             types: [python] 
