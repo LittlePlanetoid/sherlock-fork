@@ -1,0 +1,23 @@
+repos:
+    - repo: local
+      hooks:
+          - id: ruff-format-diff
+            name: ruff format diff
+            description: TODO
+            language: system
+            entry: uv run ruff format --diff
+            types: [python]
+
+          - id: ruff-format-check
+            name: ruff format check
+            description: TODO
+            language: system
+            entry: uv run ruff format --check
+            types: [python] 
+
+          - id: ruff-check
+            name: ruff check
+            description: TODO
+            language: system
+            entry: uv run ruff check
+            types: [python] 
