@@ -3,7 +3,7 @@ repos:
       hooks:
           - id: ruff-format-diff
             name: ruff format diff
-            description: TODO
+            description: show diffs with ruff target
             language: system
             entry: poetry run ruff format --diff
             types: [python]
@@ -16,8 +16,8 @@ repos:
             types: [python]
 
           - id: pytest
-            name: rpytest
-            description: TODO
+            name: pytest
+            description: run tests
             language: system
             entry: poetry run pytest
             types: [python] 
