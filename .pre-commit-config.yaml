@@ -13,4 +13,11 @@ repos:
             description: TODO
             language: system
             entry: poetry run ruff check
+            types: [python]
+
+          - id: pytest
+            name: rpytest
+            description: TODO
+            language: system
+            entry: poetry run pytest
             types: [python] 
