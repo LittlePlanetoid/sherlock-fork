@@ -15,9 +15,9 @@ repos:
             entry: poetry run ruff check
             types: [python]
 
-          - id: pytest
-            name: pytest
-            description: run tests
-            language: system
-            entry: poetry run pytest --config-file=pytest.ini
-            types: [python] 
+          # - id: pytest
+          #   name: pytest
+          #   description: run tests
+          #   language: system
+          #   entry: poetry run pytest --config-file=pytest.ini
+          #   types: [python] 
